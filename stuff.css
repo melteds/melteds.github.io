@@ -1,0 +1,163 @@
+body{
+    overflow: hidden;
+}
+pg{
+    opacity: 0;
+}
+troll{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: bisque;
+    font-size: 900%;
+    opacity: 0;
+    font-weight: 900;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+}
+#trollsum{
+    position: absolute;
+    background: url("pics/kusum.png") no-repeat;
+    transform: translate(125%,13%);
+    height: 80%;
+    background-size: 100%;
+    width: 30%;
+    z-index: 9999;
+}
+#trollsum:hover{
+    background: url("pics/kusum2.png") no-repeat;
+    background-size: 100%;
+}
+.title{
+    position: absolute;
+    font-family: 'Akronim';
+    font-size: 1100%;
+    display: block;
+    justify-self: center;
+    width: 100%;
+    transform: translate(4.5%,0%);
+    text-align: center;
+}
+.side{
+    font-size: 0%;
+    position: absolute;
+    padding-right: 0%;
+    width: 6%;
+    padding-left: 3%;
+    left: 1%;
+    top: 0%;
+    bottom: 0%;
+    word-wrap: break-word;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.pad{
+    position: absolute;
+    width: 12%;
+    padding-left: 0%;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    border-bottom-right-radius: 40px;
+}
+.select{
+    position: absolute;
+    width: 12%;
+    padding-left: 0%;
+    opacity: 0;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    border-bottom-right-radius: 40px;
+}
+.select:hover{
+    cursor: pointer;
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    padding-left: 0%;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    background-color: #C155A0;
+}
+
+.k{
+    display: block;
+}
+.k.glow{
+    filter: drop-shadow(8px 8px 10px rgba(12, 91, 121, 0.47)) saturate(5.5);
+}
+.u{
+    display: block;
+}
+.u.glow{
+    filter: drop-shadow(8px 8px 10px rgba(255, 82, 0, 1)) saturate(5.5);
+}
+.s{
+    display: block;
+}
+.s.glow{
+    filter: drop-shadow(8px 8px 10px rgba(10, 91, 33, .35)) saturate(5.5);
+}
+.u2{
+    display: block;
+}
+.u2.glow{
+    filter: drop-shadow(8px 8px 10px rgba(255, 82, 0, 1)) saturate(5.5);
+}
+.m{
+    display: block;
+}
+.m.glow{
+    filter: drop-shadow(8px 8px 10px rgba(211, 134, 23, .82)) saturate(5.5);
+}
+#scroll{
+
+}
+
+#topright{
+    position: absolute;
+    transform: translate(83%,0%);
+    width: 100%;
+    height: 100%;
+}
+#topleft{
+    position: absolute;
+    transform: translate(-72%,0%) scaleX(-1);
+    width: 100%;
+    height: 100%;
+}
+#bottomleft{
+    position: absolute;
+    transform: translate(-72%,68%) scaleX(-1);
+    width: 100%;
+    height: 100%;
+}
+#bottomright{
+    position: absolute;
+    transform: translate(83%,68%);
+    width: 100%;
+    height: 100%;
+}
+.pics{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#monk{
+
+}
+#monktest{
+    display: none
+}
