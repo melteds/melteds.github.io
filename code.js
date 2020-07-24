@@ -13,12 +13,20 @@ var bg = document.getElementsByClassName("bg")[0];
 var troll = document.getElementsByTagName("troll")[0];
 var monk = document.getElementById("monk");
 var monkt = document.getElementById("monktest");
+var titles = document.getElementsByClassName("title");
 ele[0].classList.add("glow")
 pads[4-current].style.borderBottomRightRadius = "0px";
 selects[4-current].style.borderBottomRightRadius = "0px";
 selects[4-current].style.cursor = "auto";
 pgs[0].style.opacity = "1";
 bg.style.backgroundColor = pads[4-current].style.backgroundColor;
+
+for(var i=0;i<titles.length;i++){
+    titles[i].style.fontSize = (screen.width/10)+"px";
+}
+
+document.getElementsByTagName("troll")[0].style.fontSize = (screen.height/6.8)+"px";
+
 function roll(event) {
     if(!debounce){
         debounce = true
